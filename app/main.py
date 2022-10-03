@@ -34,7 +34,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"message": "welcome to my api!!@"}
+    return {"message": "welcome to my api!!@!!!!"}
 
 """
 DO NOT EVER LOAD INTO GIT --- ADD THIS TO GITIGNORE
